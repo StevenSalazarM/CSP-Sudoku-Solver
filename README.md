@@ -1,10 +1,10 @@
 # CSP_Solver
-To run the program is needed python 3.4 or later, the files search.py, original.py and utils.py have been taken from
-https://github.com/aimacode/aima-python as a base solver for general csp.
+To run the program is needed python 3.4 or later, the files search.py, original.py and utils.py have been taken from AIMA's code (
+https://github.com/aimacode/aima-python) as a base solver for general csp.
 
 -The class sudokuCSP creates the objects needed for the general csp solver like neighbor, variables, domain for a sudoku game as a constraint satisfaction problem
 
--The file csp.py contains code from original.py (csp.py file from https://github.com/aimacode/aima-python) slightly modified, it doesnt use rare functions from other files (like ultis.py), the methods that have been modified are labelled with the comment "@modified"
+-The file csp.py contains code from original.py (csp.py file from AIMA's code) slightly modified, it doesnt use rare functions from other files (like ultis.py), the methods that have been modified are labelled with the comment "@modified"
 
 *Note: the simple backtracking (without inference) from original.py required a lot of time to solve hard sudoku problems, now it requiers only some seconds to solve them.
 
@@ -18,6 +18,6 @@ https://github.com/aimacode/aima-python as a base solver for general csp.
 
 
 
-Two files have been added showing the difference between the original csp.py file from https://github.com/aimacode/aima-python and this one modified. (check modified_results.txt and original_results.txt)
+Two files have been added showing the difference between the original csp.py file from AIMA's code and this one modified. (check modified_results.txt and original_results.txt)
 
 A pdf explaining the work (how to model the sudoku problem and tests) have been added, at the moment it is in italian but it may be traslated in future, if you have any question feel free to contact me at steven.salazar@stud.unifi.it 
