@@ -1,0 +1,30 @@
+**** Result from original.py ****
+Hard 0 (Evil one):
+	BT: * seconds and * back_tracks
+	FC: 0.52063 seconds and 8 213 back track 
+	MAC: 1.84287 seconds and 2 856 back track
+Hard 1: 
+	BT: * seconds and * back_tracks 
+	FC: 0.08049 seconds and 1 012 back_tracks
+	MAC: 0.29705 seconds and 422 back_track
+Hard 2:
+	BT: * seconds and * back_tracks
+	FC: 0.03837 seconds and 340 back track 
+	MAC: 0.11402 seconds and 95 back track
+Easy 0:
+	BT: 1917.50852 seconds and 9 512 838 back_tracks
+	FC: 0.01347 seconds and 1 back_tracks 
+	MAC: 0.04117 seconds and 0 back_tracks
+Easy 1:
+	BT: 59.44475 seconds and 514 836 back_tracks
+	FC: 0.01806 seconds and 0 back tracks
+	MAC: 0.04133 seconds and 0 back tracks
+Easy 2: 
+	BT: 4.83607 seconds and 40 419 back_tracks
+	FC: 0.01179 seconds and 0 back_tracks
+	MAC: 0.03837 seconds and 0 back_tracks
+
+
+* here the backtracking without inference took more than 40 minutes to be solved, of we see how in Easy 0
+  it needed 9 512 838 states so in the harder ones it is a lot more, so we couldnt measure the exact value but it is
+  really high

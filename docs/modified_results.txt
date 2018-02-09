@@ -1,0 +1,25 @@
+**** Result from modified CSP.py ****
+Hard 0 (Evil one):
+	BT: 5.546142 seconds and 95 818  back_tracks
+	FC: 0.4636 seconds and 12 899 back tracks
+	MAC: 1.9644 seconds and 3 775 back tracks
+Hard 1: 
+	BT: 14.46901 seconds and 254 924 back_tracks
+	FC: 0.105089 seconds and 2 875 bt
+	MAC: 0.394952 seconds and 587 bt
+Hard 2:
+	BT: 1.690208 sec and 28 697 bt
+	FC: 0.011204 sec and 170 bt
+	MAC: 0.05872 seconds and 19 bt
+Easy 0:
+	BT: 0.00874 seconds and 44 bt
+	FC: 0.00534 seconds and 1 bt
+	MAC: 0.0315 seconds and 0 bt
+Easy 1:
+	BT: 0.014484 seconds and 165 bt
+	FC:  0.005116 seconds and 0 bt
+	MAC: 0.02603 seconds nad 0 bt
+Easy 2: 
+	BT: 0.01868 seconds and 254 bt
+	FC: 0.006598 seconds and 0 bt
+	MAC: 0.025268 seconds and 0 bt
