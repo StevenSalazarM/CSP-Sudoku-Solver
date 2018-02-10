@@ -2,6 +2,8 @@
 To run the program is needed python 3.4 or later, the files search.py, original.py and utils.py have been taken from AIMA's code (
 https://github.com/aimacode/aima-python) as a base solver for general csp.
 
+- original.py, utils.py and search.py arent needed to run main.py or test.py, those have been added just to show its performance on docs/original_results.txt
+
 -The class sudokuCSP creates the objects needed for the general csp solver like neighbor, variables, domain for a sudoku game as a constraint satisfaction problem
 
 -The file csp.py contains code from original.py (csp.py file from AIMA's code) slightly modified, it doesnt use rare functions from other files (like ultis.py), the methods that have been modified are labelled with the comment "@modified"
