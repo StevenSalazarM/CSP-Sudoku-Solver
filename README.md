@@ -1,5 +1,5 @@
 # CSP_Solver
-To run the program is needed python 3.4 or later, the files search.py, original.py and utils.py have been taken from AIMA's code (
+In order to run the program you should have installed python 3.4 or later, the files search.py, original.py and utils.py have been taken from AIMA's code (
 https://github.com/aimacode/aima-python) as a base solver for general csp.
 
 - original.py, utils.py and search.py arent needed to run main.py or test.py, those have been added just to show its performance on docs/original_results.txt
