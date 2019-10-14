@@ -22,4 +22,4 @@ https://github.com/aimacode/aima-python) as a base solver for general csp.
 
 Two files have been added showing the difference between the original csp.py file from AIMA's code and this one modified. (check modified_results.txt and original_results.txt)
 
-A pdf explaining the work (how to model the sudoku problem and tests) have been added, at the moment it is in italian but it may be traslated in future, if you have any question feel free to contact me at steven.salazar@stud.unifi.it 
+A pdf explaining the work (how to model the sudoku problem and tests) have been added, at the moment it is in italian but it may be traslated in future, if you have any question feel free to contact me at stevensalazarmolina@gmail.com 
