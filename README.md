@@ -1,25 +1,32 @@
-# CSP_Solver
-In order to run the program you should have installed python 3.4 or later, the files search.py, original.py and utils.py have been taken from AIMA's code (
-https://github.com/aimacode/aima-python) as a base solver for general csp.
+# Solver for Sudoku as a Constraint Satisfaction Problem 
 
-- original.py, utils.py and search.py arent needed to run main.py or test.py, those have been added just to show its performance on docs/original_results.txt
+This repository provides python scripts that allows to solve the Sudoku Game, show the solution with a Graphical User Interface and models the Sudoku Game as a CSP.
 
-- The class sudokuCSP creates the objects needed for the general csp solver like neighbor, variables, domain for a sudoku game as a constraint satisfaction problem
+- original.py, utils.py and search.py are python scripts taken from Artificial Intelligence Modern Approach code. Those files have been included in this repository to show the performance obtained with respect to the original version (the results are shown in docs/original_results.txt).
 
-- The file csp.py contains code from original.py (csp.py file from AIMA's code) slightly modified, it doesnt use rare functions from other files (like ultis.py), the methods that have been modified are labelled with the comment "@modified"
+- The file csp.py contains code from original.py (csp.py file from AIMA's code) slightly modified, it doesnt use rare functions from other files (like ultis.py), the methods that have been modified are labelled with the comment "@modified". Furthermore, this file contains algorithms to solve a CSP, like backtracking with the 3 different methods for inference, an heuristic like Most Recent Value, etc.
 
-*Note: the simple backtracking (without inference) from original.py required a lot of time to solve hard sudoku problems, now it requiers only some seconds to solve them.
+- sudokucsp.py contains the sudokuCSP class and it creates the objects needed for the general csp solver like neighbor, variables, domain for a sudoku game as a constraint satisfaction problem
 
-- The file csp.py contains algorithms to solve csp, like backtracking with the 3 different methods for inference, mrv and some other methods.
-
-- The class in gui.py contains code to create a graphic user interface for the game, allowing the user to choose a level (there are 6 different boards) and an infernet method for backtracking
+- The class in gui.py contains code to create a graphic user interface for the game, allowing the user to choose a level (there are 6 different boards) and an inference method for backtracking
 
 - The file test.py contains code to execute tests for each inference algorithm on a sudoku board (it is possible to choose which board)
 
 - The file Main.py contains a main method to run the gui program
 
+- Docs directory a document explaining the work and two txt files showing the different results obtained from AIMA's code and my code (AIMA's code modified)
+
+- Levels directory contains screenshots showing sample levels used to measure the time of each back-tracking algorithm.
+
+## Usage
+The only requirement is to have python 3.4 or later. Then:
+
+1. run Main.py or add your sudoku level to gui.py
+<br><br>
+<p align="center">
+<img align="center" src="https://github.com/StevenSalazarM/CSP-Sudoku-Solver/blob/master/levels/Evil.png"></img>
+</p>
+<br><br>
 
 
-Two files have been added showing the difference between the original csp.py file from AIMA's code and this one modified. (check modified_results.txt and original_results.txt)
-
-A pdf explaining the work (how to model the sudoku problem and tests) have been added, at the moment it is in italian but it may be traslated in future, if you have any question feel free to contact me at stevensalazarmolina@gmail.com 
+If you have any question feel free to contact me at [stevensalazarmolina@gmail.com](mailto:stevensalazarmolina@gmail.com) or open an Issue in this repository.
